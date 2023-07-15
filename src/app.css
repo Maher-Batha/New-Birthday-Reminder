@@ -1,0 +1,64 @@
+.birthday-card-project {
+  background: #fae8ff;
+}
+.birthday-card-project .container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.birthday-card-project .container .card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1.5rem 2rem;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  gap: 24px 0px;
+  width: 536px;
+  max-width: 100%;
+}
+.birthday-card-project .container .card .title {
+  font-weight: 400;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+/* .birthday-card-project .container .card .people, */
+.birthday-card-project .container .card .people .person {
+  display: flex;
+  align-items: center;
+  gap: 0px 12px;
+  margin: 24px 0px;
+}
+.birthday-card-project .container .card .people .person .person-image {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+.birthday-card-project .container .card .people .person .person-image img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.birthday-card-project .container .card .person .person-details .person-name {
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+}
+.birthday-card-project .container .card .clear-all {
+  width: 100%;
+  height: 27px;
+  border-radius: 4px;
+  background: #d946ef;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
